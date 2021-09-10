@@ -1,6 +1,7 @@
 import React from "react"
 import { Link } from "gatsby"
 import { StaticImage } from "gatsby-plugin-image"
+import ThemeToggle from "./ThemeToggle"
 
 function Logo() {
   return (
@@ -14,7 +15,7 @@ function Logo() {
   )
 }
 
-export default function Navbar() {
+export default function Navbar({ isDarkTheme, setTheme }) {
   return (
     <nav>
       <div className="logo">
@@ -24,6 +25,7 @@ export default function Navbar() {
         <Link to="/">Home</Link>
         <Link to="/about">About</Link>
         <Link to="/projects">Portfolio</Link>
+        <ThemeToggle isDarkTheme={isDarkTheme} setTheme={setTheme} />
       </div>
     </nav>
   )

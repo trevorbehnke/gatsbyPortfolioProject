@@ -6,6 +6,22 @@ export const GlobalStyles = createGlobalStyle`
     color: ${({ theme }) => theme.text};
     transition: background 0.2s ease-in, color 0.2s ease-in;
   }
+  nav {
+    background-color: ${({ theme }) => theme.body};
+    transition: background 0.2s ease-in, color 0.2s ease-in;
+
+  }
+  nav a {
+    color: ${({ theme }) => theme.text};
+    transition: background 0.2s ease-in, color 0.2s ease-in;
+  }
+  nav a:hover {
+    border-color: ${({ theme }) => theme.text};
+  }
+  footer p {
+    color: ${({ theme }) => theme.text};
+    transition: background 0.2s ease-in, color 0.2s ease-in;
+  }
 `
 
 export const lightTheme = {

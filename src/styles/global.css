@@ -3,9 +3,9 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
   text-decoration: none;
   font-family: "Montserrat";
-  /* color: white; */
 }
 html,
 body {
@@ -20,13 +20,11 @@ p {
 .layout {
   max-width: 1000px;
   margin: 0 auto;
-  padding: 15px;
+  padding: 20px;
 }
 nav {
-  background-color: grey;
   display: flex;
   justify-content: space-between;
-  /* margin: 20px auto; */
 }
 nav .links {
   display: inline-block;
@@ -44,6 +42,6 @@ nav a:hover {
 }
 footer p {
   text-align: center;
-  color: white;
+  /* color: white; */
   margin: 40px auto;
 }

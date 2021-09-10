@@ -9,11 +9,11 @@ export default function Layout({ children }) {
   const [theme, setTheme] = useState("light")
   const isDarkTheme = theme === "dark"
 
-  const toggleTheme = () => {
-    const updatedTheme = isDarkTheme ? "light" : "dark"
-    setTheme(updatedTheme)
-    localStorage.setItem("theme", updatedTheme)
-  }
+  // const toggleTheme = () => {
+  //   const updatedTheme = isDarkTheme ? "light" : "dark"
+  //   setTheme(updatedTheme)
+  //   localStorage.setItem("theme", updatedTheme)
+  // }
 
   useEffect(() => {
     const savedTheme = localStorage.getItem("theme")
@@ -31,8 +31,9 @@ export default function Layout({ children }) {
     <ThemeProvider theme={isDarkTheme ? darkTheme : lightTheme}>
       <div className="layout">
         <GlobalStyles />
-        <Navbar />
-        <button onClick={toggleTheme}>
+        <Navbar isDarkTheme={isDarkTheme} setTheme={setTheme} />
+        {/* <ThemeToggle toggleTheme={toggleTheme}/> */}
+        {/* <button onClick={toggleTheme}>
           {isDarkTheme ? (
             <span aria-label="Light mode" role="img">
               🌞
@@ -42,7 +43,7 @@ export default function Layout({ children }) {
               🌜
             </span>
           )}
-        </button>
+        </button> */}
         <div className="content">{children}</div>
         <footer>
           <p>Copyright 2021 Web Warrior</p>
