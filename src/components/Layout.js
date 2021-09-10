@@ -5,15 +5,11 @@ import { ThemeProvider } from "styled-components"
 
 import { lightTheme, darkTheme, GlobalStyles } from "../theme"
 
+import Footer from "./Footer"
+
 export default function Layout({ children }) {
   const [theme, setTheme] = useState("light")
   const isDarkTheme = theme === "dark"
-
-  // const toggleTheme = () => {
-  //   const updatedTheme = isDarkTheme ? "light" : "dark"
-  //   setTheme(updatedTheme)
-  //   localStorage.setItem("theme", updatedTheme)
-  // }
 
   useEffect(() => {
     const savedTheme = localStorage.getItem("theme")
@@ -32,22 +28,8 @@ export default function Layout({ children }) {
       <div className="layout">
         <GlobalStyles />
         <Navbar isDarkTheme={isDarkTheme} setTheme={setTheme} />
-        {/* <ThemeToggle toggleTheme={toggleTheme}/> */}
-        {/* <button onClick={toggleTheme}>
-          {isDarkTheme ? (
-            <span aria-label="Light mode" role="img">
-              🌞
-            </span>
-          ) : (
-            <span aria-label="Dark mode" role="img">
-              🌜
-            </span>
-          )}
-        </button> */}
         <div className="content">{children}</div>
-        <footer>
-          <p>Copyright 2021 Web Warrior</p>
-        </footer>
+        <Footer />
       </div>
     </ThemeProvider>
   )

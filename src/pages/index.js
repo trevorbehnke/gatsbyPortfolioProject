@@ -21,11 +21,13 @@ export default function Home({ data }) {
     <Layout>
       <section className={header}>
         <div>
-          <h2>Design</h2>
-          <h3>Develop & Deploy</h3>
-          <p>UX designer & web developer</p>
+          <h2>Hello 👋,</h2>
+          <h3>
+            I'm <strong>Trevor</strong>
+          </h3>
+          <p>A modern web developer</p>
           <Link className={btn} to="/projects">
-            My Portfolio Projects
+            About Me
           </Link>
         </div>
         <Banner />

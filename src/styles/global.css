@@ -42,6 +42,27 @@ nav a:hover {
 }
 footer p {
   text-align: center;
-  /* color: white; */
   margin: 40px auto;
+}
+
+.sun {
+  width: 100%;
+  text-align: center;
+}
+
+.sun::after {
+  content: "\1F31E";
+  font-size: 25px;
+  display: block;
+}
+
+.moon {
+  width: 100%;
+  text-align: center;
+}
+
+.moon::after {
+  content: "\1F31A";
+  font-size: 25px;
+  display: block;
 }

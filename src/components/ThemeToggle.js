@@ -8,14 +8,22 @@ export default function ThemeToggle({ isDarkTheme, setTheme }) {
   }
   return (
     <>
-      <button onClick={toggleTheme} style={{ cursor: "pointer" }}>
+      <button
+        onClick={toggleTheme}
+        style={{
+          cursor: "pointer",
+          background: "transparent",
+          border: "none",
+          marginLeft: "20px",
+        }}
+      >
         {isDarkTheme ? (
           <span aria-label="Light mode" role="img">
-            🌞
+            <div class="sun"></div>
           </span>
         ) : (
           <span aria-label="Dark mode" role="img">
-            🌜
+            <div class="moon"></div>
           </span>
         )}
       </button>

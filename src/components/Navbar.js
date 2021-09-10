@@ -6,11 +6,11 @@ import ThemeToggle from "./ThemeToggle"
 function Logo() {
   return (
     <StaticImage
-      src="../images/logo.png"
+      src="../images/banner.png"
       alt="Logo"
       placeholder="blurred"
       layout="fixed"
-      width={80}
+      width={50}
     />
   )
 }
@@ -19,7 +19,7 @@ export default function Navbar({ isDarkTheme, setTheme }) {
   return (
     <nav>
       <div className="logo">
-        <Logo />
+        <Logo /> Trevor | Web Developer
       </div>
       <div className="links">
         <Link to="/">Home</Link>
