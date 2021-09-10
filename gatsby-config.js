@@ -7,6 +7,7 @@
 module.exports = {
   /* Your site config here */
   plugins: [
+    `gatsby-plugin-styled-components`,
     "gatsby-transformer-remark",
     "gatsby-plugin-image",
     "gatsby-transformer-sharp",

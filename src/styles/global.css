@@ -5,20 +5,20 @@
   padding: 0;
   text-decoration: none;
   font-family: "Montserrat";
-  color: white;
+  /* color: white; */
 }
 html,
 body {
   min-height: 100%;
 }
-body {
+/* body {
   background: radial-gradient(
     at top left,
     rgb(0, 102, 255) 0%,
     rgba(0, 204, 255, 0.979) 100%
   );
   background-repeat: no-repeat;
-}
+} */
 p {
   margin: 16px auto;
   line-height: 1.5em;
