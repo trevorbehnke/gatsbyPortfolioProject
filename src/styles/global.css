@@ -11,14 +11,6 @@ html,
 body {
   min-height: 100%;
 }
-/* body {
-  background: radial-gradient(
-    at top left,
-    rgb(0, 102, 255) 0%,
-    rgba(0, 204, 255, 0.979) 100%
-  );
-  background-repeat: no-repeat;
-} */
 p {
   margin: 16px auto;
   line-height: 1.5em;
@@ -26,13 +18,15 @@ p {
 
 /* layout & nav */
 .layout {
-  max-width: 1200px;
+  max-width: 1000px;
   margin: 0 auto;
+  padding: 15px;
 }
 nav {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  margin: 40px auto;
+  background-color: grey;
+  display: flex;
+  justify-content: space-between;
+  /* margin: 20px auto; */
 }
 nav .links {
   display: inline-block;
@@ -50,6 +44,6 @@ nav a:hover {
 }
 footer p {
   text-align: center;
-  color: #bbb;
+  color: white;
   margin: 40px auto;
 }
