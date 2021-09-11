@@ -21,6 +21,7 @@
     "@fortawesome/react-fontawesome": "^0.1.15",
     "babel-plugin-styled-components": "^1.13.2",
     "gatsby": "^3.13.0",
+    "gatsby-background-image": "^1.5.3",
     "gatsby-image": "^3.11.0",
     "gatsby-plugin-image": "^1.13.0",
     "gatsby-plugin-sharp": "^3.13.0",
@@ -28,6 +29,7 @@
     "gatsby-source-filesystem": "^3.13.0",
     "gatsby-transformer-remark": "^4.10.0",
     "gatsby-transformer-sharp": "^3.13.0",
+    "gbimage-bridge": "^0.1.4",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "styled-components": "^5.3.1"
