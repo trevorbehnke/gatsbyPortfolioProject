@@ -17,9 +17,9 @@ function Logo() {
 
 export default function Navbar({ isDarkTheme, setTheme }) {
   return (
-    <nav>
+    <nav className="navbar top">
       <div className="logo">
-        <Logo /> Trevor | Web Developer
+        <Logo />
       </div>
       <div className="links">
         <Link to="about">About</Link>
