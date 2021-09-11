@@ -3,7 +3,7 @@ import Navbar from "./Navbar"
 import "../styles/global.css"
 import { ThemeProvider } from "styled-components"
 
-import { lightTheme, darkTheme, GlobalStyles } from "../theme"
+import { lightTheme, darkTheme, GlobalStyles } from "../styles/theme"
 
 import Footer from "./Footer"
 
