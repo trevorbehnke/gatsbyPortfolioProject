@@ -9,18 +9,22 @@ export const GlobalStyles = createGlobalStyle`
   nav {
     background-color: ${({ theme }) => theme.body};
     transition: background 0.2s ease-in, color 0.2s ease-in;
-
   }
   nav a {
     color: ${({ theme }) => theme.text};
-    transition: background 0.2s ease-in, color 0.2s ease-in;
+    transition: color 0.2s ease-in;
   }
   nav a:hover {
     border-color: ${({ theme }) => theme.text};
+    transition: border-color 0.2s ease-in;
   }
   footer p {
     color: ${({ theme }) => theme.text};
-    transition: background 0.2s ease-in, color 0.2s ease-in;
+    transition: color 0.2s ease-in;
+  }
+  button {
+    color: ${({ theme }) => theme.text};
+    transition: color 0.2s ease-in;
   }
 `
 

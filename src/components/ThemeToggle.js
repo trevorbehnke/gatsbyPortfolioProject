@@ -1,4 +1,6 @@
 import React from "react"
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
+import { faSun, faMoon } from "@fortawesome/free-solid-svg-icons"
 
 export default function ThemeToggle({ isDarkTheme, setTheme }) {
   const toggleTheme = () => {
@@ -18,13 +20,13 @@ export default function ThemeToggle({ isDarkTheme, setTheme }) {
         }}
       >
         {isDarkTheme ? (
-          <span aria-label="Light mode" role="img">
-            <div class="sun"></div>
-          </span>
+          <h1>
+            <FontAwesomeIcon icon={faSun} />
+          </h1>
         ) : (
-          <span aria-label="Dark mode" role="img">
-            <div class="moon"></div>
-          </span>
+          <h1>
+            <FontAwesomeIcon icon={faMoon} />
+          </h1>
         )}
       </button>
     </>
