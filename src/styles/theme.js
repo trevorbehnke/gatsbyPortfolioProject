@@ -7,7 +7,7 @@ export const GlobalStyles = createGlobalStyle`
     transition: background 0.2s ease-in, color 0.2s ease-in;
   }
   nav {
-    background-color: ${({ theme }) => theme.body};
+    background-color: ${({ theme }) => theme.navBackground};
     transition: background 0.2s ease-in, color 0.2s ease-in;
   }
   nav a {
@@ -42,11 +42,11 @@ export const GlobalStyles = createGlobalStyle`
 export const lightTheme = {
   body: "#f1f1f1",
   text: "#121620",
-  navBackground: "rgba(255, 255, 255, 0.9)",
+  navBackground: "rgba(241, 241, 241, 0.9)",
 }
 
 export const darkTheme = {
   body: "#121620",
   text: "#f1f1f1",
-  navBackground: "rgba(0, 0, 0, 0.9)",
+  navBackground: "rgba(18, 22, 32, 0.9)",
 }
