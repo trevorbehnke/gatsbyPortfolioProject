@@ -1,5 +1,4 @@
 import React from "react"
-// import { Link } from "gatsby"
 import { StaticImage } from "gatsby-plugin-image"
 import ThemeToggle from "./ThemeToggle"
 import { Link } from "react-scroll"
@@ -11,7 +10,7 @@ function Logo() {
       alt="Logo"
       placeholder="blurred"
       layout="fixed"
-      width={50}
+      width={40}
     />
   )
 }
@@ -24,7 +23,7 @@ export default function Navbar({ isDarkTheme, setTheme }) {
       </div>
       <div className="links">
         <Link
-          activeClass="active"
+          // activeClass="active"
           to="about"
           spy={true}
           smooth={true}
@@ -35,8 +34,8 @@ export default function Navbar({ isDarkTheme, setTheme }) {
         </Link>
 
         <Link
-          activeClass="active"
-          to="projects"
+          // activeClass="active"
+          to="portfolio"
           spy={true}
           smooth={true}
           offset={-100}
@@ -45,7 +44,7 @@ export default function Navbar({ isDarkTheme, setTheme }) {
           Portfolio
         </Link>
         <Link
-          activeClass="active"
+          // activeClass="active"
           to="contact"
           spy={true}
           smooth={true}

@@ -4,7 +4,7 @@ import { getImage } from "gatsby-plugin-image"
 import { BgImage } from "gbimage-bridge"
 import Navbar from "./Navbar"
 
-const HeroImage = ({ isDarkTheme, setTheme }) => {
+const Header = ({ isDarkTheme, setTheme }) => {
   const { backgroundImage123 } = useStaticQuery(
     graphql`
       query {
@@ -25,18 +25,20 @@ const HeroImage = ({ isDarkTheme, setTheme }) => {
   const pluginImage = getImage(backgroundImage123)
 
   return (
-    <BgImage className="hero" image={pluginImage}>
+    <BgImage className="hero" image={pluginImage} id="hero">
       <Navbar isDarkTheme={isDarkTheme} setTheme={setTheme} />
       <div className="content">
-        <h1>Hello 👋,</h1>
-        <h2>
-          I'm <strong>Trevor</strong>
-        </h2>
-        <h3>A modern web developer</h3>
-        <Link>About Me</Link>
+        <div className="headerCard">
+          <h1>Hello 👋,</h1>
+          <h2>
+            I'm <strong>Trevor</strong>
+          </h2>
+          <h3>A modern web developer</h3>
+          <Link>About Me</Link>
+        </div>
       </div>
     </BgImage>
   )
 }
 
-export default HeroImage
+export default Header

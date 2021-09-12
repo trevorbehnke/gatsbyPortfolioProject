@@ -3,12 +3,12 @@ import React from "react"
 import * as styles from "../styles/projects.module.css"
 // import { GatsbyImage, getImage } from "gatsby-plugin-image"
 
-export default function Projects({ data }) {
+export default function Portfolio({ data }) {
   // console.log(data)
   // const projects = data.projects.nodes
   // const contact = data.contact.siteMetadata.contact
   return (
-    <div className={styles.portfolio} id="projects">
+    <div className={styles.portfolio} id="portfolio">
       <h2>Portfolio</h2>
       <h3>Check what I've been doing lately</h3>
       <p>

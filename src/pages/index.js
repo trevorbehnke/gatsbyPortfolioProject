@@ -1,10 +1,10 @@
 import React, { useState, useEffect } from "react"
 import Layout from "../components/Layout"
 import About from "../components/About"
-import Projects from "../components/Projects"
+import Portfolio from "../components/Portfolio"
 import Contact from "../components/Contact"
 import Footer from "../components/Footer"
-import HeroImage from "../components/HeroImage"
+import Header from "../components/Header"
 
 import { ThemeProvider } from "styled-components"
 import { lightTheme, darkTheme, GlobalStyles } from "../styles/theme"
@@ -29,9 +29,9 @@ export default function Home() {
     <ThemeProvider theme={isDarkTheme ? darkTheme : lightTheme}>
       <GlobalStyles />
       <Layout>
-        <HeroImage isDarkTheme={isDarkTheme} setTheme={setTheme} />
+        <Header isDarkTheme={isDarkTheme} setTheme={setTheme} />
         <About />
-        <Projects />
+        <Portfolio />
         <Contact />
         <Footer />
       </Layout>

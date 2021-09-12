@@ -15,7 +15,7 @@ export const GlobalStyles = createGlobalStyle`
     transition: color 0.2s ease-in;
   }
   nav a:hover {
-    border-color: ${({ theme }) => theme.text};
+    border-bottom: ${({ theme }) => theme.text} 2px solid;
     transition: border-color 0.2s ease-in;
   }
   footer p {
@@ -31,6 +31,10 @@ export const GlobalStyles = createGlobalStyle`
   }
   .navbar.top::before {
     background: ${({ theme }) => theme.navBackground};
+    transition: background 0.2s ease-in;
+  }
+  .headerCard {
+    background-color: ${({ theme }) => theme.body};
     transition: background 0.2s ease-in;
   }
 `
