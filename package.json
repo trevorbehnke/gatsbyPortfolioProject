@@ -32,6 +32,7 @@
     "gbimage-bridge": "^0.1.4",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
+    "react-scroll": "^1.8.4",
     "styled-components": "^5.3.1"
   },
   "devDependencies": {
