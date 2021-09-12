@@ -8,7 +8,9 @@ const Header = ({ isDarkTheme, setTheme }) => {
   const { backgroundImage123 } = useStaticQuery(
     graphql`
       query {
-        backgroundImage123: file(relativePath: { eq: "tlogo.png" }) {
+        backgroundImage123: file(
+          relativePath: { eq: "t-block-dark-artboard.png" }
+        ) {
           id
           childImageSharp {
             gatsbyImageData(
