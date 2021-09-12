@@ -9,13 +9,14 @@
 
 /* Button */
 .btn {
+  font-size: 1rem;
   cursor: pointer;
   display: inline-block;
-  padding: 10px 30px;
+  padding: 5px 15px;
   color: #fff;
-  background: #28a745;
+  background: #4c92f7;
   border: none;
-  border-radius: 5px;
+  border-radius: 30px;
 }
 
 .btn:hover {
