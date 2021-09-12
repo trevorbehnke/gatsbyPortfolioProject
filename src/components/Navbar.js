@@ -6,7 +6,7 @@ import { Link } from "react-scroll"
 function Logo() {
   return (
     <StaticImage
-      src="../images/banner.png"
+      src="../images/tlogo.png"
       alt="Logo"
       placeholder="blurred"
       layout="fixed"
@@ -18,7 +18,7 @@ function Logo() {
 export default function Navbar({ isDarkTheme, setTheme }) {
   return (
     <nav className="navbar top">
-      <div className="logo">
+      <div className="logo" style={{}}>
         <Logo />
       </div>
       <div className="links">
