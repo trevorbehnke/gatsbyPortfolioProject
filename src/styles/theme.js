@@ -8,15 +8,14 @@ export const GlobalStyles = createGlobalStyle`
   }
   nav {
     background-color: ${({ theme }) => theme.navBackground};
-    transition: background 0.2s ease-in, color 0.2s ease-in;
+    transition: background-color 0.2s ease-in;
   }
   nav a {
     color: ${({ theme }) => theme.text};
-    transition: color 0.2s ease-in;
   }
   nav a:hover {
-    border-bottom: ${({ theme }) => theme.text} 2px solid;
-    transition: border-color 0.2s ease-in;
+    
+    color: ${({ theme }) => theme.aHover};
   }
   footer p {
     color: ${({ theme }) => theme.text};
@@ -33,7 +32,7 @@ export const GlobalStyles = createGlobalStyle`
     background: ${({ theme }) => theme.navBackground};
     transition: background 0.2s ease-in;
   }
-  .headerCard {
+  .card {
     background-color: ${({ theme }) => theme.body};
     transition: background 0.2s ease-in;
   }
@@ -43,10 +42,12 @@ export const lightTheme = {
   body: "#f1f1f1",
   text: "#121620",
   navBackground: "rgba(241, 241, 241, 0.9)",
+  aHover: "#4C92F7",
 }
 
 export const darkTheme = {
   body: "#121620",
   text: "#f1f1f1",
   navBackground: "rgba(18, 22, 32, 0.9)",
+  aHover: "#4C92F7",
 }
