@@ -32,11 +32,11 @@ const Header = ({ isDarkTheme, setTheme }) => {
     <BgImage className="hero" image={pluginImage} id="hero">
       <Navbar isDarkTheme={isDarkTheme} setTheme={setTheme} />
       <div className="content">
-        <h1 style={{ marginTop: "60px" }}>Hello 👋,</h1>
+        <h1>Hello 👋,</h1>
         <h2>
           I'm <strong>Trevor</strong>.
         </h2>
-        <h6 style={{ margin: "30px" }}>
+        <p style={{ margin: "30px" }}>
           A{" "}
           <span style={{ color: "red", fontWeight: "bold" }}>
             <Typewriter
@@ -51,7 +51,7 @@ const Header = ({ isDarkTheme, setTheme }) => {
           </span>{" "}
           web <br />
           developer.
-        </h6>
+        </p>
         <Link
           className="btn"
           to="about"

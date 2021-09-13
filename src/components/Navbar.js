@@ -18,10 +18,10 @@ function Logo() {
 export default function Navbar({ isDarkTheme, setTheme }) {
   return (
     <nav className="navbar top">
-      <div className="logo" style={{}}>
+      <div>
         <Logo />
       </div>
-      <div className="links">
+      <div>
         <Link
           // activeClass="active"
           to="about"

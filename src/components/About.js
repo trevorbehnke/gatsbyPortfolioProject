@@ -18,19 +18,24 @@ export default function About() {
         I’ve been studying Front-End development ever since.
       </p>
       <p>
-        Over the last couple of years, I took online courses like Full Stack
-        Open from the University of Helsinki, The Modern React Bootcamp by Colt
-        Steele, Modern JavaScript From The Beginning by Brad Traversy, Complete
-        React Developer in 2021 by Zero To Mastery, ES6 JavaScript The Complete
-        Developer's Guide by Stephen Grider, read JavaScript: The Definitive
-        Guide from cover to cover, and also watched countless youtube videos
-        about Javascript.
+        Over the last couple of years, I taken hundreds of hours of online
+        courses like Full Stack Open from the University of Helsinki, The Modern
+        React Bootcamp by Colt Steele, Modern JavaScript From The Beginning by
+        Brad Traversy, Complete React Developer in 2021 by Zero To Mastery, ES6
+        JavaScript The Complete Developer's Guide by Stephen Grider, read
+        JavaScript: The Definitive Guide from cover to cover, and also watched
+        countless youtube videos about Javascript.
       </p>
       <p>
         Because we know the best way to learn is to practice, I also did a bunch
         of personal projects with the knowledge I gathered from the courses, you
         can check them out in my portfolio. I even started a blog that focuses
         on the art and philosophy of coding.
+      </p>
+      <p>
+        I consider myself a ‘forever student,’ eager to both build on my
+        academic foundations as well as stay in touch with the latest technology
+        and strategies.
       </p>
       <p>
         I always want to learn more, do more, and be more. I’m also a firm
