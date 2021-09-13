@@ -53,6 +53,16 @@ export default function Navbar({ isDarkTheme, setTheme }) {
         >
           Contact
         </Link>
+        <Link
+          // activeClass="active"
+          to="#"
+          spy={true}
+          smooth={true}
+          offset={-100}
+          duration={500}
+        >
+          Blog
+        </Link>
         <ThemeToggle isDarkTheme={isDarkTheme} setTheme={setTheme} />
       </div>
     </nav>

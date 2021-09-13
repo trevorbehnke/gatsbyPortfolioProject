@@ -5,63 +5,47 @@ export default function About() {
     <div id="about">
       <h1>About Me</h1>
       <h4>If you're wondering who I am...</h4>
-      <button>Resume</button>
+      <p>I’m Trevor, a self-taught Front-End Developer from California.</p>
       <p>
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum iure ex
-        harum eos nemo odio dolorem est! Numquam, aliquam ratione minus suscipit
-        modi officia iste iure explicabo quos, alias in consequuntur cum.
-        Recusandae distinctio numquam laborum at eligendi autem provident
-        perferendis excepturi neque, et veritatis nesciunt ut soluta omnis
-        ullam. Distinctio magni repudiandae labore, consectetur dolore eaque!
-        Itaque rem saepe, ipsa, eveniet necessitatibus dolor similique voluptate
-        commodi, asperiores id quos facilis nostrum nam sapiente voluptatem
-        doloremque. Quia earum ab deleniti error unde quaerat odit hic impedit,
-        saepe ad voluptate perspiciatis mollitia nesciunt dolorem, odio at qui
-        modi! Atque alias a ducimus aspernatur? Libero debitis enim officia?
-        Numquam animi ducimus modi? Aliquid tempora praesentium pariatur
-        voluptates provident a accusantium incidunt dolorem ipsa perferendis
-        ullam cupiditate mollitia accusamus, tenetur maxime adipisci. Porro
-        ipsam natus alias adipisci sapiente sint rerum nobis maiores, ipsum
-        nostrum magni a. Numquam eos a error! Perspiciatis voluptates, nisi
-        totam iste laboriosam, ipsum quis, eligendi asperiores beatae laudantium
-        odio non iusto nulla cum? Doloribus magnam dolor eligendi nobis iste
-        quasi voluptate libero rem? Quam, ut dignissimos! Fugit, similique
-        voluptas, neque quasi deleniti nemo sit nam aperiam ad sint molestiae et
-        distinctio quas enim sapiente, tenetur reprehenderit eum optio
-        excepturi. Accusantium placeat nihil quas expedita assumenda, possimus
-        perspiciatis! Dolorum explicabo vero cupiditate ab labore est autem
-        nihil corporis nesciunt velit sunt facere, expedita nostrum consequatur,
-        dolores sit maxime dolor adipisci, quas repellendus! Dolor iste harum
-        ipsa doloremque quibusdam! Nam incidunt nemo id officia. Suscipit
-        quibusdam corrupti tempora dolorem veritatis non aliquam ipsam! Facilis
-        adipisci iure ratione, provident earum officia natus nesciunt pariatur
-        quos enim ipsum deleniti alias, facere illum obcaecati cumque corporis
-        dolor. Iusto consequatur, beatae perferendis non amet sed enim deleniti
-        quos voluptas sapiente nisi autem quidem asperiores eius, adipisci
-        eaque, quibusdam velit! Porro obcaecati corrupti aperiam corporis
-        accusamus natus nostrum expedita ratione odit laboriosam ullam nam
-        recusandae quas laudantium, dolorem hic eum repellendus officia dicta
-        tenetur ducimus magnam! Ullam quisquam accusamus vel, laboriosam quis
-        sit non numquam facilis doloremque beatae magni perspiciatis optio,
-        cupiditate illum autem. Iusto laborum quibusdam voluptatum vel possimus,
-        eaque libero non, velit dolores reprehenderit praesentium labore omnis
-        optio quis. Quidem laboriosam natus illo quam repellat totam enim dolore
-        tempora vero adipisci. Maxime sit ipsum, cupiditate tenetur
-        exercitationem distinctio excepturi non ratione ipsam dolor sint
-        suscipit ex ut maiores quo vel ab, quam doloribus, quibusdam laboriosam
-        neque. Eos ullam corrupti, blanditiis perferendis excepturi fugit, aut
-        quasi minima cupiditate inventore iste odit voluptate quia repudiandae
-        dolore quisquam harum pariatur ea voluptatum omnis nisi ipsam! Tempore
-        rem consequatur porro quibusdam, perspiciatis debitis libero ex
-        recusandae explicabo ratione repellendus eius quisquam nam eaque animi
-        totam soluta enim minus! Quaerat dolorem veniam itaque. Aliquam
-        cupiditate sequi officiis ipsum officia aut? Facilis nemo rem, dolorem
-        quisquam sint velit consectetur hic quam eveniet modi iusto voluptates
-        adipisci nisi optio, maiores molestias repellendus fugit, error minus
-        alias culpa atque doloribus blanditiis. Rem autem ipsa vero quaerat
-        magni maiores expedita. Quam, debitis hic consectetur quas corporis iste
-        dolore perferendis enim. Aliquid, animi dicta!
+        While studying Business Management in college, I became a Google Cloud
+        certified Architect & Engineer, but I only built small projects that
+        helped me get used to the infrastructure on the back end. I wasn’t
+        building any UX/UI and I felt stuck...
       </p>
+      <p>
+        In 2019 I decided it was time for a change so I started to learn
+        JavaScript whenever I had free time. I quickly started to love it and
+        I’ve been studying Front-End development ever since.
+      </p>
+      <p>
+        Over the last couple of years, I took online courses like Full Stack
+        Open from the University of Helsinki, The Modern React Bootcamp by Colt
+        Steele, Modern JavaScript From The Beginning by Brad Traversy, Complete
+        React Developer in 2021 by Zero To Mastery, ES6 JavaScript The Complete
+        Developer's Guide by Stephen Grider, read JavaScript: The Definitive
+        Guide from cover to cover, and also watched countless youtube videos
+        about Javascript.
+      </p>
+      <p>
+        Because we know the best way to learn is to practice, I also did a bunch
+        of personal projects with the knowledge I gathered from the courses, you
+        can check them out in my portfolio. I even started a blog that focuses
+        on the art and philosophy of coding.
+      </p>
+      <p>
+        I always want to learn more, do more, and be more. I’m also a firm
+        believer that we should never settle.
+      </p>
+      <p>
+        I’m hard working, super curious, passionate, committed, and also a fast
+        learner!
+      </p>
+      <p>My current stack of languages/technologies is:</p>
+      <p>
+        HTML5 - CSS3 - JAVASCRIPT - SASS - REACTJS - - STYLED COMPONENTS -
+        FIREBASE - GRAPHQL - GATSBY - MONGODB - EXPRESSJS - NODEJS
+      </p>
+      <button className="btn">Resume</button>
     </div>
   )
 }

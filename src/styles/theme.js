@@ -31,7 +31,7 @@ export const GlobalStyles = createGlobalStyle`
     background: ${({ theme }) => theme.navBackground};
     transition: background 0.2s ease-in;
   }
-  .hero .content  {
+  .hero .content {
     background-color: ${({ theme }) => theme.navBackground};
     transition: background-color 0.2s ease-in;
   }
