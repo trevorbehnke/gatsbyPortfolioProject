@@ -32,7 +32,7 @@ export const GlobalStyles = createGlobalStyle`
     transition: background 0.2s ease-in;
   }
   .hero .content  {
-    background-color: ${({ theme }) => theme.body};
+    background-color: ${({ theme }) => theme.navBackground};
     transition: background-color 0.2s ease-in;
   }
   .btn {
